@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujjwal Profile</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css">
+    <!-- MDB -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.js"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        a:hover {
+        background-color:  #FBEAEB;
+        }
+
+        .card {
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            box-shadow: 5px 6px 6px 2px #e9ecef;
+            transform: scale(1.1);
+        }
+        .center {
+  margin-left: 390px; 
+  width: 60%;
+  padding: 10px;
+}
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg   shadow-0" id="nav">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarRightAlignExample" aria-controls="navbarRightAlignExample" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse header" id="navbarRightAlignExample">
+                <!-- Left links -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item p-4">
+                        <a class="text-dark" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item p-4">
+                        <a class="text-dark" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item p-4">
+                        <a class="text-dark" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item p-4">
+                        <a class="text-dark" href="project.html">Project</a>
+                    </li>
+                    <li class="nav-item p-4">
+                        <a class="text-purple-400" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <div class="container h-75">
+        <!-- Content -->
+        <div class="section">
+            <div class="text-center fs-2 fw-bold">
+                Contacts
+            </div>
+            <div>
+                <!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4"></h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Regarding any Queries...</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="https://formspree.io/f/xjvdbnjj" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="name" class="">Your name</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                            
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="email" class="">Your email</label>
+                            <input type="text" id="email" name="email" class="form-control">
+                            
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="subject" class="">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control">
+                           
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <label for="message">Your message</label>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <br>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li>
+                    <a href="https://www.google.com/maps/place/Harihar+nagar/@24.0490246,84.0910605,15z/data=!4m13!1m7!3m6!1s0x398c77ed92d3ca9f:0x24c56d24cc2e0e90!2sBaralota,+Medininagar,+Jharkhand+822101!3b1!8m2!3d24.0481706!4d84.0960056!3m4!1s0x0:0x3b4a267ce11c7cb1!8m2!3d24.0460923!4d84.0855483"><i class="fas fa-map-marker-alt fa-2x"></i></a>
+                    <p>Ujjwal,Jharkhand, India</p>
+                </li>
+
+                <li>
+                    <a href="tel:+917009221601"><i class="fas fa-phone mt-4 fa-2x"></i></a>
+                    <p>+91 7009221601</p>
+                </li>
+
+                <li>
+                    <a href="mailto:ujjwaltiwari07@gmail.com"><i class="fas fa-envelope mt-4 fa-2x"></i></a>
+                    <p>ujjwaltiwari07@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+           
+            <!-- <div class="row center">
+                <div class="col-6 col-sm-4 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                           <a href="mailto:vickychella27@gmail.com"><i class="fa-solid fa-envelope"></i></a> 
+                            <h5>Email</h5>
+                            <p>vickychella27@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 py-3" >
+                    <div class="card h-100" >
+                        <div class="p-4 text-center">
+                            <a href="https://www.linkedin.com/in/vigneshwaran-r-19312k1/"><i class="fa-brands fa-linkedin"></i></a>
+                            <h5>Linkedin</h5>
+                            <p>https://www.linkedin.com/in/vigneshwaran-r-19312k1/</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 py-3">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <a href="https://github.com/VIGNESHWARANR-1"><i class="fa-brands fa-github"></i></a>
+                            <h5>Github</h5>
+                            <p>VIGNESHWARANR-1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 py-3 ">
+                    <div class="card h-100">
+                        <div class="p-4 text-center">
+                            <a href="tel:+917339115665"><i class="fa fa-mobile-phone" style="font-size:24px"></i></a>
+                            <h5>Mobile no.</h5>
+                            <p>+91 7339115665</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+</body>
+
+</html>
